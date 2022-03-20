@@ -1,0 +1,49 @@
+.body{
+    height: 1000vh;
+  background-color: #0d1116;
+  text-align: center;
+  color: white;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%
+    );
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+  background-color: #0d1116;
+  text-align: center;
+  color: white;
+}
+
+.log h1{
+    font-size: 2.5rem;
+        margin-bottom: 100px;
+        padding: 10px;
+        border: #fff solid 1px;
+}
+
+.foot{
+    margin-top: 150px;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
